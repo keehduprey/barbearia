@@ -1,0 +1,77 @@
+body{
+	background: #4d4d4d;
+	color: white;
+	font-size: 20px;
+	font-family: "Comic Sans";
+}
+
+
+#container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-areas: "login imagem";
+	height: 100vh;
+}
+
+#login{
+	grid-area: login;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: -160px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #f59e11;
+	margin-left: 200px;
+	transition: 0.5s;
+}
+
+a:hover{
+	color: #9c6000;
+	letter-spacing: 3px;
+	transition: 1s;
+
+}
+
+input{
+	text-align: center;
+	width: 150%;
+	height: 45px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: black;
+	color: white;
+	border: none;
+	transition: 0.2s;
+	font-size: 18px;
+}
+
+input[type="email"]{
+	background: #1c1c1c url(email.svg) no-repeat;
+}
+
+input[type="password"]{
+	background: #1c1c1c url(password.svg) no-repeat;
+}
+
+input[type="submit"]{
+	background: orange;
+}
+
+input[type="submit"]:hover{
+	height:  50px;
+	transition: 0.2s;
+	font-size: 19px;
+}
+
+
+#imagem{
+	grid-area: imagem;
+	background: url(0.jpg) no-repeat;
+	background-size: cover;
+
+}

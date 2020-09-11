@@ -71,7 +71,7 @@ input[type="submit"]:hover{
 
 #imagem{
 	grid-area: imagem;
-	background: url(0.jpg) no-repeat;
+	background: url(https://d176s39pnpenan.cloudfront.net/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png) no-repeat;
 	background-size: cover;
 
 }
